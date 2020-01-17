@@ -1,0 +1,6 @@
+# action.yml
+name: 'S3 Copy to specific destination'
+description: '-'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
