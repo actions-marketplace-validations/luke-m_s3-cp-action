@@ -1,5 +1,7 @@
 # GitHub Action to `aws s3 cp` a file to an S3 Bucket 🔄 
 
+## **Disclaimer: This action is different to tpaschalis/s3-cp-action (the one it's forked from) in that it allows you to specify a destination in the bucket to copy the file to. I needed this functionality in a project so I quickly forked and adjusted the action. I still need to update the README to reflect that change. For now, please just check out the source code to figure out how this works :D**
+
 This simple action uses the [vanilla AWS CLI](https://docs.aws.amazon.com/cli/index.html) to sync a directory (either from your repository or generated during your workflow) with a remote S3 bucket.
 
 
